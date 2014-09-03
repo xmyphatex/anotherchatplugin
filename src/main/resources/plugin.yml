@@ -1,0 +1,53 @@
+name: AnotherChatPlugin
+main: de.myphate.anotherchatplugin.ACP
+version: 0.7.8
+
+commands:
+  craccept:
+    description: Accepts a chatinvation.
+    usage: /<command>
+  cra:
+    description: Accepts a chatinvation.
+    usage: /<command>    
+  crinvite:
+    description: Invites named player to chat.
+    usage: /<command> Playername
+  cri:
+    description: Invites named player to chat.
+    usage: /<command> Playername
+  crcc:
+    description: Closes a chat with given id
+    usage: /<command> ID    
+  closechat:
+    description: Closes a chat with given id
+    usage: /<command> ID
+  crjc:
+    description: Joins a chat with the given id
+    usage: /<command> ID      
+  joinchat:
+    description: Joins a chat with the given id
+    usage: /<command> ID
+  crlc:
+    description: Leaves the current chatroom
+    usage: /<command>    
+  leavechat:
+    description: Leaves the current chatroom
+    usage: /<command>    
+  croc:
+    description: Create a new chatroom.
+    usage: /<command>     
+  opennewchat:
+    description: Create a new chatroom.
+    usage: /<command>
+  crrcu:
+    description: Removes the player from the chatroom
+    usage: /<command> Playername    
+  rmchatuser:
+    description: Removes the player from the chatroom
+    usage: /<command> Playername
+  crsc:
+    description: Shows you all the chatrooms
+    usage: /<command>    
+  showchatrooms:
+    description: Shows you all the chatrooms
+    usage: /<command>
